@@ -3,3 +3,6 @@
 
 #png files
 *.png
+
+#csv files
+*.csv
