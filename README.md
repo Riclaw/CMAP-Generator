@@ -39,6 +39,7 @@ This classifier, pretrained on carefully annotated data, was applied to prune re
 
 ### Results
 
+In conclusion, the evaluation of the concept maps involved both a user study and objective metrics. The user study showed that while both model-generated and human-created maps were satisfactory for understanding, the baseline map was considered useless. The model-generated map was seen as useful for revising concepts but not entirely trustworthy, while the human-created map was deemed capable of comprehensively representing the paragraph. Objective metrics, including ROUGE-2 scores, indicated that the model partially retrieved relevant elements from the text similar to BART summarization. However, limitations include text repetition in concept maps and varying map lengths. Overall, the model demonstrates acceptable performance while remaining far from being perfect.
 
 ## Structure of the repo
 The core functionality of our project resides in the *main_notebook.ipynb file*, where the map generation model is implemented.
@@ -50,6 +51,7 @@ To enhance the accuracy of our maps, we employ NeuralCoref and the OpenIE Stanfo
 For benchmarking purposes, *baseline_test.py* is used for the generation of baseline concept maps, while *evaluation.ipynb* outlines our model evaluation methodology, accompanied by the pertinent data frames used in the process.
 
 We aim to provide a comprehensive framework for map generation, empowering users to explore, evaluate, and enhance their understanding of complex concepts efficiently.
+
 
 ```
 │──📁 data: contains the dataset imported in the notebooks
@@ -68,3 +70,11 @@ We aim to provide a comprehensive framework for map generation, empowering users
 ```
 
 ## Credits
+
+| Author             | Contact                       
+| ----------------   | ------------------------------
+| Edoardo Morresi | edoardo.morresi@studbocconi.it 
+| Lorenzo d'Imporzano |	lorenzo.dimporzano@studbocconi.it
+| Riccardo Valdo  | riccardo.valdo@studbocconi.it  
+|Luca Matarazzo | luca.matarazzo@studbocconi.it
+|Elena Rossi | elena.r@studbocconi.it
