@@ -73,7 +73,7 @@ We aim to provide a comprehensive framework for map generation, empowering users
 
 | Author             | Contact                       
 | ----------------   | ------------------------------
-| Edoardo Morresi | edoardo.morresi@studbocconi.it 
+| Domitilla Izzo | domitilla.izzo@studbocconi.it 
 | Lorenzo d'Imporzano |	lorenzo.dimporzano@studbocconi.it
 | Riccardo Valdo  | riccardo.valdo@studbocconi.it  
 |Luca Matarazzo | luca.matarazzo@studbocconi.it
